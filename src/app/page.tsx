@@ -2,6 +2,7 @@ import Hero from "../../components/Hero";
 import ProjectCard from "../../components/ProjectCard";
 import { projects } from "../../data/projects";
 import Stack from "../../components/Stack";
+import OSS from "../../components/OSS";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </section>
 
       <Stack />
+      <OSS />
 
       <section id="contact" className="py-12 bg-zinc-900/30 rounded-2xl p-8 border border-zinc-900">
         <h3 className="text-white font-medium mb-2">Want to build something?</h3>
