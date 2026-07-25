@@ -1,5 +1,3 @@
-import { group } from "console";
-
 export default function Stack() {
   const stack = [
     { category: "Languages", items: ["Javascript", "TypeScript", "Rust", "Go"] },

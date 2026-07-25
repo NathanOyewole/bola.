@@ -1,6 +1,4 @@
-import { link } from "fs";
 import { ExternalLink } from "lucide-react";
-import { title } from "process";
 
 interface ProjectProps {
   title: string;
