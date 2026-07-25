@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+const geistSans = Geist({
+  subsets: ["latin"],
+  variable: "--font-geist-sans",
+});
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-geist-mono",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${geistMono.variable} font-mono bg-[#0a0a0a] text-zinc-400 antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-mono bg-[#0a0a0a] text-zinc-400 antialiased`}>
         {/* Added md:px-12 and md:py-24 for tablet/desktop scaling */}
         <div className="max-w-3xl mx-auto px-6 md:px-12 py-12 md:py-24">
           <nav className="flex justify-between items-center mb-16">
