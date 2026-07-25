@@ -13,7 +13,7 @@ export default function ProjectCard({ title, description, tech, link, status }: 
     <div className="group relative p-6 rounded-2xl border border-zinc-900 bg-zinc-950/50 hover:bg-zinc-900/40 hover:border-zinc-800 transition-all duration-300">
       <div className="flex justify-between items-start mb-4">
         <div>
-          <h3 className="text-white font-semibold text-lg gruop-hover:text-blue-400 transition-colors">
+          <h3 className="text-white font-semibold text-lg group-hover:text-blue-400 transition-colors">
             {title}
           </h3>
           <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold">
