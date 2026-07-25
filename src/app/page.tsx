@@ -1,8 +1,8 @@
-import Hero from "../../components/Hero";
-import ProjectCard from "../../components/ProjectCard";
-import { projects } from "../../data/projects";
-import Stack from "../../components/Stack";
-import OSS from "../../components/OSS";
+import Hero from "../components/Hero";
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data/projects";
+import Stack from "../components/Stack";
+import OSS from "../components/OSS";
 
 export default function Home() {
   return (
