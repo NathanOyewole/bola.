@@ -13,7 +13,7 @@ export const projects = [
       "Scan any public GitHub repo and get a structured LLM-assisted report: tech stack, walkthrough, key files, and how-to-run.",
     tech: ["Rust", "Axum", "Next.js", "Postgres", "OpenRouter"],
     link: "https://github.com/NathanOyewole/gitforge",
-    status: "In Progress",
+    status: "Shipped",
   },
   {
     title: "Warden",
