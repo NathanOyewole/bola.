@@ -1,6 +1,6 @@
 export default function Stack() {
   const stack = [
-    { category: "Languages", items: ["Javascript", "TypeScript", "Rust", "Go"] },
+    { category: "Languages", items: ["JavaScript", "TypeScript", "Rust", "Go"] },
     { category: "Frontend", items: ["React.js", "Next.js", "Tailwind"] },
     { category: "Backend", items: ["Node.js", "Supabase", "PostgreSQL"] },
     { category: "Workflow", items: ["Neovim", "Tmux", "Arc"] },
