@@ -34,4 +34,11 @@ export const projects = [
     link: "https://the-cache-os.vercel.app/",
     status: "Shipped"
   },
+  {
+    title: "Luna",
+    description: "Lightweight native video editor for gameplay clips",
+    tech: ["Rust", "egui", "FFmpeg"],
+    link: "https://github.com/NathanOyewole/luna",
+    status: "In Progress"
+  },
 ];
