@@ -1,5 +1,26 @@
 export const projects = [
   {
+    title: "Prologue",
+    description: "Professional screenplay writing app with industry formatting, cloud sync, AI-assisted writing, and password-protected sharing.",
+    tech: ["Expo", "TypeScript", "Supabase", "OpenRouter"],
+    link: "https://github.com/NathanOyewole/prologue",
+    status: "In Progress"
+  },
+  {
+    title: "GitForge",
+    description: "Scan any public GitHub repository and get a structured, LLM-assisted report: tech stack, walkthrough, key files, and how-to-run.",
+    tech: ["Rust", "Axum", "Next.js", "Postgres", "OpenRouter"],
+    link: "https://github.com/NathanOyewole/gitforge",
+    status: "In Progress"
+  },
+  {
+    title: "Warden",
+    description: "A minimal ownership checker built from scratch in Rust to isolate and understand the ownership half of Rust's borrow checker.",
+    tech: ["Rust"],
+    link: "https://github.com/NathanOyewole/warden",
+    status: "Shipped"
+  },
+  {
     title: "Ghost Editor",
     description: "A high-performance, minimalist text editor built for the modern web",
     tech: ["Rust", "Next.js", "Wasm"],
