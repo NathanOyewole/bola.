@@ -11,9 +11,12 @@ export default function Hero() {
       <p className="text-lg text-zinc-400 max-w-md">
         Creative Engineer focused on building minimalist, high-performance tools and interfaces.
       </p>
-      <button className="flex items-center gap-2 text-sm font-medium hover:text-blue-400 transition-colors">
+      <a
+        href="#projects"
+        className="flex items-center gap-2 text-sm font-medium hover:text-blue-400 transition-colors"
+      >
         View Projects <ArrowRight size={16} />
-      </button>
+      </a>
     </section>
   );
 }
