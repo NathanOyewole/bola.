@@ -5,7 +5,7 @@ export const projects = [
       "Professional screenplay writing app with industry formatting, cloud sync, AI-assisted writing via OpenRouter, and password-protected sharing.",
     tech: ["Expo", "TypeScript", "Supabase", "OpenRouter"],
     link: "https://github.com/NathanOyewole/prologue",
-    status: "In Progress",
+    status: "Shipped",
   },
   {
     title: "GitForge",

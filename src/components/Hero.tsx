@@ -9,7 +9,7 @@ export default function Hero() {
         Building the <span className="text-zinc-500">future</span> of the web.
       </h1>
       <p className="text-lg text-zinc-400 max-w-md">
-        Creative Engineer focused on building minimalist, high-performance tools and interfaces.
+        Creative & Product Engineer focused on building minimalist, high-performance tools and interfaces.
       </p>
       <a
         href="#projects"
