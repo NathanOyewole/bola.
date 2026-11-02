@@ -99,4 +99,12 @@ export const projects = [
     link: "https://github.com/NathanOyewole/naira2sol",
     status: "In Progress",
   },
+  {
+    title: "Sol Hound",
+    description:
+      "Eval that tests whether AI models can identify subtle security vulnerabilities in Solana programs — CPI, signer checks, PDA validation, account ownership, and Anchor constraint bugs.",
+    tech: ["Python", "Solana", "Anchor", "LLM Eval"],
+    link: "https://github.com/NathanOyewole/solana-cpi-vuln-eval",
+    status: "Shipped",
+  },
 ];
