@@ -67,4 +67,36 @@ export const projects = [
     link: "https://github.com/NathanOyewole/luna",
     status: "In Progress",
   },
+  {
+    title: "Grok Desk",
+    description:
+      "Autonomous AI trading desk on Solana. 5-agent pipeline (Scanner, Auditor, Analyst, Executor, Risk) that scans PumpFun migrations, runs 8-layer safety audits, scores with LLM, and executes trades via Telegram. PAPER/LIVE modes with stop-loss, trailing stop, and PnL tracking.",
+    tech: ["Python", "Solana", "OpenRouter", "Telegram Bot", "SQLite"],
+    link: "https://github.com/NathanOyewole/grok-desk",
+    status: "Shipped",
+  },
+  {
+    title: "WIF Desk",
+    description:
+      "AI trading agent on Robinhood Chain for the World is Flat Hackathon. Scans Uniswap V3 pools, audits ERC-20 contracts, scores with LLM, pushes alerts via Telegram.  burn flywheel on every trade.",
+    tech: ["Python", "Robinhood Chain", "EVM", "Uniswap V3", "OpenRouter"],
+    link: "https://github.com/NathanOyewole/wif-desk",
+    status: "In Progress",
+  },
+  {
+    title: "Scout",
+    description:
+      "Private Rust contract-hunting engine for finding vulnerabilities in deployed EVM contracts. Radar → surface → prove → report pipeline. Includes Immunefi bounty radar and local dashboard.",
+    tech: ["Rust", "EVM", "Immunefi"],
+    link: "https://github.com/NathanOyewole/scout",
+    status: "Shipped",
+  },
+  {
+    title: "BOX//OS",
+    description:
+      "Go modular monolith application platform. Stages 0-3 complete (core, auth, API, middleware). Stage 4 (persistent storage) pending.",
+    tech: ["Go", "Modular Monolith", "REST API"],
+    link: "https://github.com/NathanOyewole/box-os",
+    status: "In Progress",
+  },
 ];
