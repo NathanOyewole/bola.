@@ -92,11 +92,11 @@ export const projects = [
     status: "Shipped",
   },
   {
-    title: "BOX//OS",
+    title: "naira2sol",
     description:
-      "Go modular monolith application platform. Stages 0-3 complete (core, auth, API, middleware). Stage 4 (persistent storage) pending.",
-    tech: ["Go", "Modular Monolith", "REST API"],
-    link: "https://github.com/NathanOyewole/box-os",
+      "Telegram batching pool for converting small naira amounts to SOL. Aggregates micro-deposits and swaps in batches to minimize fees.",
+    tech: ["Rust", "Solana", "Telegram Bot"],
+    link: "https://github.com/NathanOyewole/naira2sol",
     status: "In Progress",
   },
 ];
