@@ -28,7 +28,7 @@ export default function RootLayout({
         {/* Added md:px-12 and md:py-24 for tablet/desktop scaling */}
         <div className="max-w-3xl mx-auto px-6 md:px-12 py-12 md:py-24">
           <nav className="flex justify-between items-center mb-16">
-            <span className="text-white font-bold tracking-tighter text-xl">Brimax</span>
+            <span className="text-white font-bold tracking-tighter text-xl">bola. 👾</span>
             {/* Added md:gap-8 and md:text-sm for better spacing on larger screens */}
             <div className="flex gap-4 md:gap-8 text-xs md:text-sm">
               <a href="#projects" className="hover:text-white transition-colors">Projects</a>
