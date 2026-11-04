@@ -6,10 +6,10 @@ export default function Hero() {
       <StatusBadge />
 
       <h1 className="text-5xl font-bold tracking-tight text-white">
-        Building the <span className="text-zinc-500">future</span> of the web.
+        Security-first <span className="text-zinc-500">builder</span>.
       </h1>
       <p className="text-lg text-zinc-400 max-w-md">
-        Creative & Product Engineer focused on building minimalist, high-performance tools and interfaces.
+        On-chain policy vaults, AI payment security, and Solana vulnerability research. Building security infrastructure for the AI agent economy.
       </p>
       <a
         href="#projects"

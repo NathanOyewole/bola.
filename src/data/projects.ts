@@ -1,50 +1,66 @@
 export const projects = [
   {
-    title: "Prologue",
+    title: "Rampart",
     description:
-      "Professional screenplay writing app with industry formatting, cloud sync, AI-assisted writing via OpenRouter, and password-protected sharing.",
-    tech: ["Expo", "TypeScript", "Supabase", "OpenRouter"],
-    link: "https://github.com/NathanOyewole/prologue",
+      "On-chain policy vaults for trading agents on Solana. Immutable binaries, renounced upgrade authorities, PDA-enforced spending limits. Custom error 6004 proves policy blocks unauthorized transfers.",
+    tech: ["Rust", "Solana", "Anchor", "TypeScript"],
+    link: "https://github.com/hqBrimax/rampart",
     status: "Shipped",
   },
   {
-    title: "GitForge",
+    title: "Sentinel",
     description:
-      "Scan any public GitHub repo and get a structured LLM-assisted report: tech stack, walkthrough, key files, and how-to-run.",
-    tech: ["Rust", "Axum", "Next.js", "Postgres", "OpenRouter"],
-    link: "https://github.com/NathanOyewole/gitforge",
+      "AI payment security layer. Policy engine with spending caps, allowlists, human approval thresholds, TEE attestation, and audit trails. Default-deny: no policy = no payments.",
+    tech: ["Python", "FastAPI", "Ed25519", "HashiCorp Vault", "SQLite"],
+    link: "https://github.com/hqBrimax/sentinel",
     status: "Shipped",
   },
   {
-    title: "Grok Desk",
+    title: "SolAudit",
     description:
-      "Autonomous AI trading desk on Solana. 5-agent pipeline (Scanner, Auditor, Analyst, Executor, Risk) that scans PumpFun migrations, runs 8-layer safety audits, scores with LLM, and executes trades via Telegram. PAPER/LIVE modes with stop-loss, trailing stop, and PnL tracking.",
-    tech: ["Python", "Solana", "OpenRouter", "Telegram Bot", "SQLite"],
-    link: "https://github.com/NathanOyewole/grok-desk",
+      "Solana vulnerability detection eval. 10-task suite covering CPI, signer checks, PDA validation, account ownership, reentrancy. Tests whether frontier AI models can find real bugs.",
+    tech: ["Python", "Solana", "Anchor", "LLM Eval"],
+    link: "https://github.com/hqBrimax/solaudit",
     status: "Shipped",
   },
   {
-    title: "WIF Desk",
+    title: "Intel (Crypto Research)",
     description:
-      "AI trading agent on Robinhood Chain for the World is Flat Hackathon. Scans Uniswap V3 pools, audits ERC-20 contracts, scores with LLM, pushes alerts via Telegram.  burn flywheel on every trade.",
-    tech: ["Python", "Robinhood Chain", "EVM", "Uniswap V3", "OpenRouter"],
-    link: "https://github.com/NathanOyewole/wif-desk",
+      "AI research and writing workspace. Research pipeline with citation validation, knowledge base with full-text search, X writing style engine, and personalized content generation.",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "RelayStation"],
+    link: "https://github.com/hqBrimax/intel",
+    status: "Shipped",
+  },
+  {
+    title: "PayGuard",
+    description:
+      "Agent payment security with on-chain policy enforcement. Guards AI agent transactions before signing. Spending limits, allowlists, and audit trails.",
+    tech: ["TypeScript", "Solana", "Policy Engine"],
+    link: "https://github.com/hqBrimax/payguard",
+    status: "Shipped",
+  },
+  {
+    title: "BoxOS",
+    description:
+      "Go modular monolith. Stages 0-3 complete with persistent storage pending. Clean architecture with dependency injection and domain-driven design.",
+    tech: ["Go", "PostgreSQL", "Modular Monolith"],
+    link: "https://github.com/hqBrimax/boxos",
     status: "In Progress",
   },
   {
     title: "Scout",
     description:
-      "Private Rust contract-hunting engine for finding vulnerabilities in deployed EVM contracts. Radar → surface → prove → report pipeline. Includes Immunefi bounty radar and local dashboard.",
+      "Private Rust contract-hunting engine for finding vulnerabilities in deployed EVM contracts. Radar → surface → prove → report pipeline with Immunefi bounty radar.",
     tech: ["Rust", "EVM", "Immunefi"],
     link: "https://github.com/NathanOyewole/scout",
     status: "Shipped",
   },
   {
-    title: "Sol Hound",
+    title: "Prologue",
     description:
-      "Eval that tests whether AI models can identify subtle security vulnerabilities in Solana programs — CPI, signer checks, PDA validation, account ownership, and Anchor constraint bugs.",
-    tech: ["Python", "Solana", "Anchor", "LLM Eval"],
-    link: "https://github.com/NathanOyewole/solana-cpi-vuln-eval",
+      "Professional screenplay writing app with industry formatting, cloud sync, AI-assisted writing, and password-protected sharing.",
+    tech: ["Expo", "TypeScript", "Supabase", "OpenRouter"],
+    link: "https://github.com/NathanOyewole/prologue",
     status: "Shipped",
   },
 ];
